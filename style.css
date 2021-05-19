@@ -1,0 +1,58 @@
+html {
+ background-color: #333232;
+ height: 100%;
+
+}
+#container {
+  height: 200px;
+  width: 550px;
+  backgrounds color: #F5E4C3
+  display: grid;
+  margin 0 auto;
+  border: 5px solid #88B169;
+  grid-templates-column: 1fr 1fr 1fr 1fr;
+  grid-templates-column: 1fr 50px 1fr;
+
+}
+#input {
+   height: 25px;
+   width: 250px;
+   grid-column-start: 2;
+   grid-column-start: 4;
+   justify-self: center;
+   align-self: center;
+
+}
+#fahren {
+   height: 25;
+   width: 125;
+   grid-column-start: 2px;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 2;
+   justify-self: center;
+
+}
+#celsuis {
+    
+   height: 25;
+   width: 125;
+   grid-column-start: 3px;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 2;
+   justify-self: center;
+   
+}
+
+
+#output {
+   height: 25px;
+   width: 250px;
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 3;
+   grid-row-end: 3;
+   justify-self: center;
+   
+ }  
