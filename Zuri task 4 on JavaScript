@@ -1,0 +1,9 @@
+function convertFahrToCelsius(0) {
+
+var fTemp = fahrenheit;
+
+var fToCel = (fTemp - 32) * 5 / 9;
+
+return fToCel.toFixed(4);
+
+}
