@@ -15,9 +15,6 @@ function checkYuGiOh(num){
      else {
          var ans;
 
-         //assigning the check function to a variable and passing the parameter in the checkYuGiOh function to it
-         ans = create(num);
-
          //a function that creates an array of numbers from 1 to n and replaces multiples of 2, 3, and 5 with "yu", "gi" and "oh"
          function create(n){
             var n;
